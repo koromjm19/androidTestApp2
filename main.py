@@ -19,7 +19,7 @@ class SecondWindow(Screen):
 class WindowManager(ScreenManager):
     pass
 
-kv = Builder.load_file("multi.kv")
+kv = Builder.load_file("multiscreen.kv")
 
 class P(FloatLayout):
     pass
